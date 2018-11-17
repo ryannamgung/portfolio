@@ -1,0 +1,19 @@
+.button {
+  background-color: #Transparent;
+  border-radius: .5em; /* Edges are currvy */
+  border: 3px red groove;
+  color: black;
+  font-weight: 800;
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.button:hover {opacity: 1}
