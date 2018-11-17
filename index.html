@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -40,8 +41,48 @@
         </ul>
       </section>
 
-      <section id="graphics-one">
-      </section>
+
+      <div id="post-area">
+        <script src="src/jquery.bxslider.min.js"></script>
+          <div class="slide-wrap">
+              <section class="slider">
+                  <ul class="slider1">
+                    <li><img src="images/picture-one.jpg"></li>
+                    <li><img src="images/picture-two.jpg"></li>
+                    <li><img src="images/picture-three.jpg"></li>
+                  </ul>
+              </section>
+          </div>
+          <script type="text/javascript">
+              $('.slider1').bxSlider({
+                  mode: 'fade',
+                  captions: false,
+                  auto: true,
+                  pager: false,
+
+
+              });
+              $('.slider2').bxSlider({
+                  pager: false,
+                  captions: true,
+                  maxSlides: 3,
+                  minSlides: 1,
+                  slideMargin: 10
+              });
+              $('.slider3').bxSlider({
+                  mode: 'fade',
+                  slideWidth: 230,
+                  captions: false,
+                  auto: true,
+                  pager: false,
+                  controls: false,
+              });
+          </script>
+        </div>
+
+
+
+
       <section class="info-block">
         <br/>
         <br/>
@@ -120,3 +161,8 @@
     </section>
   </body>
 </html>
+
+
+
+
+<!-- <script type='text/javascript' src='index.js'></script> -->

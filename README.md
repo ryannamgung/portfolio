@@ -1,5 +1,17 @@
 # portfolio
 
+<!--
+<section id="graphics">
+  <ul class="slider">
+      <li><img src="images/picture-one.jpg"></li>
+      <li><img src="images/picture-two.jpg"></li>
+  </ul>
+</section>
+
+ -->
+
+
+
 <!-- this is the other way to design the navbar after redirect .....
 
 #navbar{

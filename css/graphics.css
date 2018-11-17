@@ -1,15 +1,13 @@
-#graphics-one{
-  background-image:url('../images/picture-one.jpg');
-  background-size:cover;
-  height: 70vh;
-  border-top-style: outset;
-  border-bottom-style: inset;
+.slider {
+   max-width: 105vw;
 }
 
-#graphics-two{
-  background-image:url('../images/picture-one.jpg');
-  background-size:cover;
-  height: 70vh;
-  border-top-style: outset;
-  border-bottom-style: inset;
+.slider1 li img {
+  max-width: 105vw;
+  margin: -1% auto auto -5%;
+  height: 70vmax;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {
+  display: none;
 }

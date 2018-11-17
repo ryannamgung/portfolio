@@ -50,11 +50,13 @@
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    border-width: 1px;
+    border-top: 1px solid transparent;
+    margin-bottom: 10px;
 }
 
 #linkedin:hover{
-  background-color: white;
+  background: #e1e1e1;
+  border-top: 1px solid #d0d0d0;
 }
 
 #credits{
