@@ -42,8 +42,19 @@
   display:inline;
   font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
   font-size:22px;
-  padding-right:40px;
+  padding-right:20px;
   color: white;
+}
+
+#linkedin{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border-width: 1px;
+}
+
+#linkedin:hover{
+  background-color: white;
 }
 
 #credits{

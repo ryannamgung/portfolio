@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Namgung</title>
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
@@ -25,7 +25,7 @@
         <div id="introduction">
           <h1 >Hi, I'm Ryan Namgung</h1>
           <br/>
-          <button class="button" type="button">Learn About Me !</button>
+          <a class="button" href="#navbar">Learn More About Me !</a>
         </div>
       </section>
       <section id="navbar">
@@ -33,21 +33,29 @@
       </section>
       <section id="navbar-secondary">
         <ul>
-          <li id="about">About</li>
-          <li id="experience">Experience</li>
-          <li id="contact-info">Contact</li>
+
+          <li id="about"><a href="#about-me">About</a></li>
+          <li id="experience"><a href="#my-experience">Experience</a></li>
+          <li id="contact-info"><a href="#contact">Contact</a></li>
         </ul>
       </section>
 
       <section id="graphics-one">
       </section>
-
       <section class="info-block">
+        <br/>
+        <br/>
+        <br/>
         <section class="description">
-          <h2> About Me </h2>
+          <h2 id="about-me"> About Me </h2>
           <p> Recently graduated from Flatiron School, I’m a Full Stack developer with a passion for building easy to use, state of the art websites and applications implementing clean and efficient code. With experience in Ruby on Rails, JavaScript, and React and a background in data analytics, I discovered web development through my enthusiasm for technology, curiosity of how things work, and my love for the idea of being given a blank canvas, a problem and countless ways to solve it! I bring strong skills in collaborative and agile development that help team-driven, tightly knit companies efficiently develop current and fit for market solutions.
           <p>
-          <h2> Experience </h2>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+          <h2 id="my-experience"> Experience </h2>
           <h3> Security Analytics Intern </h3>
           <h5> July 2017 - August 2017 </h5>
           <p> My biggest project was running penetration tests to protect against the WannaCry virus that was plaguing hospital computers at the time. This was done via Nessus security software, and also the tracking I.P. ranges of corrupted computers using InfoBlox and pushing remote software updates using Synamic anti-virus software.
@@ -80,13 +88,25 @@
           <h5> December 2017 </h5>
           <p> Used Elucids and the RSA prime number algorithm to generate large prime numbers that could be used to form public and private keys. Shared the public keys with the recipient and sent them a message which is turned into a jumble of letters and numbers by the algorithm. Then the recipient can decrypt this message using the key and thus completing the encrypted messaging process.
           <p>
+          <br/>
+          <br/>
+          <br/>
+          <h3 id="inline-block"> You can find more projects on my Github !
+          </h3>
+          <div id="inline-block">
+            <a href="https://github.com/ryannamgung"><img id="github" src="images/github-logo.jpg"></a>
+          </div>
           </div>
         </section>
+        <br/>
+        <br/>
+        <br/>
         <section id="contact">
           <ul>
             <li> Contact Info: </li>
             <li> (732) 320-2427 </li>
             <li> ryannamgung@gmail.com </li>
+            <li> <a href="https://www.linkedin.com/in/ryan-namgung-20966b111/"><img id="linkedin" src="images/linkedin-logo.jpg"></a> </li>
             <!-- <li><a href="https://www.github.com/ryannamgung"><i class="fa fa-github"></i></a>
             </li>
             <li><a href="https://www.linkedin.com/in/ryan-namgung-20966b111/"><i class="fa fa-linkedin"></i></a></li> -->

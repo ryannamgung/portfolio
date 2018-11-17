@@ -14,6 +14,8 @@
 #navbar-secondary li{
   display:inline;
   font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+}
+#navbar-secondary li a{
   font-size:18px;
   padding-right:40px;
   color: black;
@@ -22,9 +24,10 @@
   cursor: pointer;
 }
 
-#navbar-secondary li:hover {
+#navbar-secondary li a:hover {
   color:orange;
-  opacity:1
+  opacity:1;
+  text-decoration:none;
 }
 
 
