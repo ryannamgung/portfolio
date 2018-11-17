@@ -1,0 +1,45 @@
+#navbar{
+  background-image:url('../images/computer-flat.jpg');
+  background-position:center right;
+  background-size:cover;
+  padding-left: 30px;
+}
+
+#navbar-secondary ul{
+  background-color: #F0F0D3;
+  padding:1% 0 1% 5%;
+  list-style: none;
+}
+
+#navbar-secondary li{
+  display:inline;
+  font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+  font-size:18px;
+  padding-right:40px;
+  color: black;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#navbar-secondary li:hover {
+  color:orange;
+  opacity:1
+}
+
+
+#navbar #logo{
+  width:12.5%;
+  height:12.5;
+  -webkit-animation:spin 5s linear infinite;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+
+//the other solution will be in the readME, however note that we cannot deal with the sizing issue as of yet

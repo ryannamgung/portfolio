@@ -4,25 +4,99 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ryan Namgung</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/graphics.css">
+    <link rel="stylesheet" href="css/text-blocks.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="intro">
       <section id="showcase">
         <div id="introduction">
           <h1 >Hi, I'm Ryan Namgung</h1>
-          <button class="button" type="button">Learn About Me!</button>
+          <br/>
+          <button class="button" type="button">Learn About Me !</button>
         </div>
       </section>
+      <section id="navbar">
+        <img id="logo" src="images/logo.png">
+      </section>
+      <section id="navbar-secondary">
+        <ul>
+          <li id="about">About</li>
+          <li id="experience">Experience</li>
+          <li id="contact-info">Contact</li>
+        </ul>
+      </section>
 
-        <div class="description">
+      <section id="graphics-one">
+      </section>
+
+      <section class="info-block">
+        <section class="description">
+          <h2> About Me </h2>
           <p> Recently graduated from Flatiron School, I’m a Full Stack developer with a passion for building easy to use, state of the art websites and applications implementing clean and efficient code. With experience in Ruby on Rails, JavaScript, and React and a background in data analytics, I discovered web development through my enthusiasm for technology, curiosity of how things work, and my love for the idea of being given a blank canvas, a problem and countless ways to solve it! I bring strong skills in collaborative and agile development that help team-driven, tightly knit companies efficiently develop current and fit for market solutions.
-          </p>
-        </div>
-    </div>
+          <p>
+          <h2> Experience </h2>
+          <h3> Security Analytics Intern </h3>
+          <h5> July 2017 - August 2017 </h5>
+          <p> My biggest project was running penetration tests to protect against the WannaCry virus that was plaguing hospital computers at the time. This was done via Nessus security software, and also the tracking I.P. ranges of corrupted computers using InfoBlox and pushing remote software updates using Synamic anti-virus software.
+          <p>
+          <br/>
+          <h3>Other Responsibilities</h3>
+          <ul>
+            <li>Aided in the software merging policy between Hackensack Meridian and Bayshore</li>
+            <li>Using Forescan to block unauthorized devices trying to invade the network</li>
+            <li>Encrypt USB data</li>
+            <li>Whiteboarding projects</li>
+          </ul>
+          <br/>
+          <br/>
+          <h2> Projects </h2>
+          <div class="projects">
+          <h3> Clothes R Us </h3>
+          <h5> October 2018 </h5>
+          <p> This e-commerce site utlizes a React-Redux frontend with material-ui for styling, and a RAILS postresql backend for storing the large quantities of clothing information. You can cycle through the site adding goods you like to your shopping cart. You have the option of then removing them later if you don't wish to complete your purchase. Otherwise, you can checkout your goods completing your purchase.
+          <p>
+          <br/>
+          <br/>
+          <h3> Platform Jumper </h3>
+          <h5> September 2018 </h5>
+          <p> One of my recent projects involved making a jumping game using React and the Phaser library for the frontend, and RAILS postresql for the backend API storage. The end result was a fully functional game where the user could jump from platform to platform, and avoid obstacles to get to a portal. The portal then teleports the user to another stage and then the user must get to the final teleport location.
+          <p>
+          <br/>
+          <br/>
+          <h3> RSA Cryptography </h3>
+          <h5> December 2017 </h5>
+          <p> Used Elucids and the RSA prime number algorithm to generate large prime numbers that could be used to form public and private keys. Shared the public keys with the recipient and sent them a message which is turned into a jumble of letters and numbers by the algorithm. Then the recipient can decrypt this message using the key and thus completing the encrypted messaging process.
+          <p>
+          </div>
+        </section>
+        <section id="contact">
+          <ul>
+            <li> Contact Info: </li>
+            <li> (732) 320-2427 </li>
+            <li> ryannamgung@gmail.com </li>
+            <!-- <li><a href="https://www.github.com/ryannamgung"><i class="fa fa-github"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/ryan-namgung-20966b111/"><i class="fa fa-linkedin"></i></a></li> -->
+          </ul>
+        </section>
+
+        <section id="credits">
+          <h4>Made with ❤️ by Ryan Namgung</h4>
+          <br/>
+        </section>
+    </section>
   </body>
 </html>

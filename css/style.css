@@ -10,15 +10,14 @@
 }
 
 #introduction h1{
-  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-family: 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
   font-size: 60px;
   font-weight: normal;
   text-shadow: -1px 0 #0F0F0F, 0 1px #0F0F0F, 1px 0 #0F0F0F, 0 -1px #0F0F0F;
 }
 
-.description{
-  color:#55555;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:16px;
-  /* font-weight:600; */
+#wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }

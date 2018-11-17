@@ -1,0 +1,53 @@
+.info-block{
+  border-top-style: outset;
+  background-color: #e6f2ff;
+  font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+}
+
+.description{
+  color:#55555;
+  font-size:20px;
+  margin: 1% 5% 1% 5%;
+}
+
+.description h2{
+  color: #404040;
+  font-size:40px;
+  text-align:center;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.projects h3{
+  color: #404040;
+  font-weight: bolder;
+}
+
+.projects h5{
+  color: #404040;
+  margin-bottom: 5%;
+}
+
+#contact{
+  background: linear-gradient(to right, #54A4A6, #A9A9A9);
+}
+
+#contact ul{
+  padding:1% 0 0 5%;
+  list-style: none;
+}
+
+#contact li{
+  display:inline;
+  font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+  font-size:22px;
+  padding-right:40px;
+  color: white;
+}
+
+#credits{
+  color: #404040;
+  text-align:center;
+  font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+}

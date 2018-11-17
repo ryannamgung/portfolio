@@ -1,0 +1,15 @@
+#graphics-one{
+  background-image:url('../images/picture-one.jpg');
+  background-size:cover;
+  height: 70vh;
+  border-top-style: outset;
+  border-bottom-style: inset;
+}
+
+#graphics-two{
+  background-image:url('../images/picture-one.jpg');
+  background-size:cover;
+  height: 70vh;
+  border-top-style: outset;
+  border-bottom-style: inset;
+}
