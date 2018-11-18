@@ -1,11 +1,11 @@
 .slider {
-   max-width: 105vw;
+   max-width: 120vw;
 }
 
 .slider1 li img {
-  max-width: 105vw;
+  height: 68vmax;
+  max-width: 120vw;
   margin: -1% auto auto -5%;
-  height: 70vmax;
 }
 
 .slider .bx-wrapper .bx-controls-direction a {
