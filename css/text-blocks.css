@@ -21,12 +21,17 @@
   text-decoration: underline;
 }
 
-.projects h3{
+#my-projects h3 a{
   color: #404040;
   font-weight: bolder;
+  text-decoration:none;
 }
 
-.projects h5{
+#my-projects h3 a:hover{
+  color: silver;
+}
+
+#my-projects h5{
   color: #404040;
   margin-bottom: 5%;
 }

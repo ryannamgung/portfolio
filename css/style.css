@@ -39,3 +39,34 @@ height: 100vh; */
 #github:hover{
   background-color: #D3D3D3;
 }
+
+
+.element {
+  text-align: left;
+  height: 140px;
+  width: 140px;
+  animation-name: stretch;
+  animation-duration: 3.0s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.element img{
+  text-align: center;
+  height: 140px;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+  }
+  60% {
+    transform: scale(.8);
+  }
+}
