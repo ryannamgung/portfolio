@@ -1,6 +1,6 @@
 .button {
   border-radius: .5em; /* Edges are currvy */
-  border: 2px aqua groove;
+  border: 2px white groove;
   color: grey;
   background-color: transparent;
   font-weight: 800;
