@@ -5,6 +5,13 @@
   padding-left: 30px;
 }
 
+#navbar-secondary{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+}
+
 #navbar-secondary ul{
   background-color: #F0F0D3;
   padding:1% 0 1% 5%;

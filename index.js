@@ -1,15 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const parentDiv = document.getElementById('graphics')
+$("#slideshow > div:gt(0)").hide();
 
-  function changePicture(){
-    if(parentDiv.querySelector("div").id === 'graphics-one'){
-      parentDiv.querySelector("div").id = "graphics-two";
-    }else{
-      parentDiv.querySelector("div").id = "graphics-one";
-    }
-  }
-
-
-  //note that setInterval does not like ()
-  setInterval(changePicture, 4000);
-})
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 5000);

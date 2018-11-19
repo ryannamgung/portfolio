@@ -1,4 +1,6 @@
 .info-block{
+  position:absolute;
+  margin-top: 60%;
   border-top-style: outset;
   background-color: #e6f2ff;
   font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
