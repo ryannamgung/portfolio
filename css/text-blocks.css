@@ -1,13 +1,13 @@
+/* background-color: #e6f2ff; */
 .info-block{
   position:absolute;
-  margin-top: 60%;
+  margin-top: 55%;
   border-top-style: outset;
-  background-color: #e6f2ff;
-  font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffffff;
 }
 
 .description{
-  color:#55555;
   font-size:20px;
   margin: 1% 5% 1% 5%;
 }
@@ -30,6 +30,8 @@
   color: #404040;
   margin-bottom: 5%;
 }
+
+
 
 #contact{
   background: linear-gradient(to right, #54A4A6, #A9A9A9);
@@ -65,4 +67,12 @@
   color: #404040;
   text-align:center;
   font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+}
+
+#abt, #exp, #prj{
+  background-color: #f9f9f9;
+  padding: 1em;
+  border: 1.5px #e6e6e6 groove;
+  border-radius: .5em;
+  color:#55555;
 }

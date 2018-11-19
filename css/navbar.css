@@ -1,12 +1,12 @@
 #navbar{
-  background-image:url('../images/computer-flat.jpg');
-  background-position:center right;
+  background: linear-gradient(to right, #e6f0ff, #a6a6a6);
   background-size:cover;
   padding-left: 30px;
 }
 
+/* background-color: #F0F0D3; */
 #navbar-secondary ul{
-  background-color: #F0F0D3;
+  background: linear-gradient(to right, #f2f2f2, #a6a6a6);
   padding:1% 0 1% 5%;
   list-style: none;
 }
