@@ -1,7 +1,7 @@
 .button {
   border-radius: .5em; /* Edges are currvy */
   border: 2px aqua groove;
-  color: white;
+  color: grey;
   background-color: transparent;
   font-weight: 800;
   padding: 1em 2em;
@@ -19,7 +19,7 @@
 
 .button:hover {
   opacity: 1;
-  color: white;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }

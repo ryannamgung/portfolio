@@ -1,8 +1,10 @@
 #showcase{
-  background-image:url('../images/forest.jpg');
-  background-size:cover;
+  background: linear-gradient(to bottom, #e6f0ff, #ffffe6);
   height: 100vh;
 }
+/* background-image:url('../images/forest.jpg');
+background-size:cover;
+height: 100vh; */
 
 #introduction{
     text-align: center;
@@ -11,7 +13,6 @@
 
 #introduction h1{
   font-family: 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
-  color: white;
   font-size: 60px;
   font-weight: normal;
   text-shadow: -1px 0 #0F0F0F, 0 1px #0F0F0F, 1px 0 #0F0F0F, 0 -1px #0F0F0F;
