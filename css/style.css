@@ -53,6 +53,7 @@ height: 100vh; */
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
+  margin-top: -10px;
 }
 
 .element img{
