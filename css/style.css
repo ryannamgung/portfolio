@@ -12,7 +12,7 @@ height: 100vh; */
 }
 
 #introduction h1{
-  font-family: 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-family: 'Rubik', sans-serif, 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
   font-size: 60px;
   font-weight: normal;
   text-shadow: -1px 0 #0F0F0F, 0 1px #0F0F0F, 1px 0 #0F0F0F, 0 -1px #0F0F0F;
@@ -30,16 +30,24 @@ height: 100vh; */
 }
 
 #github{
-    width: 50px;
-    height: 50px;
-    border-width: 200px;
-    border-radius: 100%;
+  margin-right: 90px;
 }
 
 #github:hover{
-  background-color: #D3D3D3;
+  transform: scale(1.2);
 }
 
+#linkedin{
+  margin-right: 90px;
+}
+
+#linkedin:hover{
+  transform: scale(1.2);
+}
+
+#e-mail:hover{
+  transform: scale(1.2);
+}
 
 .element {
   text-align: left;
@@ -53,7 +61,6 @@ height: 100vh; */
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
-  margin-top: -10px;
 }
 
 .element img{

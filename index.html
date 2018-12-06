@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/graphics.css">
     <link rel="stylesheet" href="css/text-blocks.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
@@ -29,129 +31,135 @@
         </div>
       </section>
       <section id="navbar">
-        <div class="element">
-          <h5>
-            <img id="logo" src="images/logo.png">
-        </div>
-      </section>
-      <section id="navbar-secondary">
         <ul>
-
-          <li id="about"><a href="#about-me">About</a></li>
+          <li id="about"><a href="#about-me-block">About</a></li>
+          <li id="experience"><a href="#exp">Experience</a></li>
           <li id="projects"><a href="#my-projects">Projects</a></li>
-          <li id="experience"><a href="#my-experience">Experience</a></li>
-          <li id="contact-info"><a href="#contact">Contact</a></li>
         </ul>
       </section>
 
-      <div id="slideshow">
+   <section id="about-me-block">
+     <section id="about-me-one">
+      <img src="images/linkden-photo.jpg">
+     </section>
+     <section id="about-me-two">
        <div>
-         <img src="images/picture-one.jpg">
-       </div>
-       <div>
-         <img src="images/picture-two.jpg" height="40%">
-       </div>
-       <div>
-         <img src="images/picture-three.jpg">
-       </div>
-     </div>
+         <div id="abt">
+         <h2 id="about-me"><center> About Me </center></h2>
+          </br>
+           <p> My name is Ryan Namgung, and I recently graduated from Flatiron School. I am currently a 4th year Computer Science and Applied Mathematics major at the University of Richmond. I have a passion for deliberate problem solving, and love learning more about code. With experience in Java, Javascript, Ruby on Rails, Postgresql, React as well as Python and C++ programming, I have solid critical thinking skills and an ardent enthusiam for programming. With recent group programming experience at ICIMS Halloween Hackathon and Flatiron Field Day - Modern Hackathon, I bring strong collaborative skills geared towards team driven development. </p>
+           <br>
 
-      <section class="info-block">
+           <a href="https://github.com/ryannamgung">
+             <i id="github" class="fab fa-github-square fa-5x"></i>
+           </a>
+
+           <a href="https://www.linkedin.com/in/ryan-namgung-20966b111/">
+             <i id="linkedin" class="fab fa-linkedin fa-5x" ></i>
+           </a>
+
+           <a href="https://www.linkedin.com/in/ryan-namgung-20966b111/">
+             <i id="e-mail" class="fas fa-envelope-square fa-5x" ></i>
+           </a>
+
+           <br>
+           <br>
+         </div>
+       </div>
+     </section>
+   </section>
+   <!-- this div is necessary for the formatting break -->
+   <div class="clr"></div>
+
+   <!-- projects div -->
+    <section id="projects-block">
+      <div id="prj">
+        <h2 class="headline"><center> Projects </center></h2>
+          <div id="my-projects">
+              <div class="img-section">
+                <img src="images/clothes.jpg">
+              </div>
+              <h3> <a href="https://github.com/ryannamgung/mod5-project-frontend"> Clothes R Us </a>
+              </h3>
+                <h5> October 2018 </h5>
+                    <p> This e-commerce site utlizes a React-Redux frontend with material-ui for styling, and a RAILS postresql backend for storing the large quantities of clothing information. You can cycle through the site adding goods you like to your shopping cart. You have the option of then removing them later if you don't wish to complete your purchase. Otherwise, you can checkout your goods completing your purchase.
+                    <p>
+    <br/>
+    <br/>
+              <div class="img-section">
+                <img src="images/platform-jumper.jpg">
+              </div>
+              <h3> <a href="https://github.com/utja/module-4-project-frontend"> Platform Jumper </a>
+              </h3>
+                <h5> September 2018 </h5>
+
+                  <p> One of my recent projects involved making a jumping game using React and the Phaser library for the frontend, and RAILS postresql for the backend API storage. The end result was a fully functional game where the user could jump from platform to platform, and avoid obstacles to get to a portal. The portal then teleports the user to another stage and then the user must get to the final teleport location.
+                  <p>
         <br/>
         <br/>
         <br/>
-        <section class="description">
-          <div id="abt">
-          <h2 id="about-me"> About Me </h2>
-          <p> Recently graduated from Flatiron School, I am currently a 4th year Computer Science and Applied Mathematics major at the University of Richmond. I have a passion for deliberate problem solving, and love learning more about code. With experience in Java, Javascript, Ruby on Rails, Postgresql, React as well as Python and C++ programming, I have solid critical thinking skills and an ardent enthusiam for programming. With recent group programming experience at ICIMS Halloween Hackathon and Flatiron Field Day - Modern Hackathon, I bring strong collaborative skills geared towards team driven development. </p>
-        </div>
+              <div class="img-section">
+                <img src="images/guroo.jpg">
+              </div>
+              <h3> <a href="https://github.com/ryannamgung/MusicGuroo"> Music Guroo </a> </h3>
+                <h5> September 2018 </h5>
+                  <p> A Ruby of Rails based application with SQLite data storage. The purpose of the site is comfortable scheduling of music lessons. Login & signup functionality for both student and teacher are done using Bcrypt tokens and cookie state preservation. Teachers have the ability to create appointments, and students can book appointments from an available schedules list. Both parties can also edit their profiles.
+                  <p>
+        <br/>
+        <br/>
+              <div class="img-section">
+                <img src="images/bst.jpg">
+              </div>
+              <h3> <a href="https://github.com/ryannamgung/binary-search-tree"> Binary Search Tree </a> </h3>
+                <h5> February 2018 </h5>
+                  <p> A coalition of intermediate data structures such as Probe Hash Maps and Binary Search trees. These data structures are then run against the timing test to show the efficiency of each structure in Big-O time.
+                  <p>
+        <br/>
+        <br/>
+        <br/>
+              <div class="img-section">
+                <img src="images/rsa.jpg">
+              </div>
+              <h3> <a href="https://github.com/ryannamgung/RSA"> RSA Cryptography </a> </h3>
+                <h5> December 2017 </h5>
+                  <p> Used Elucids and the RSA prime number algorithm to generate large prime numbers that could be used to form public and private keys. Shared the public keys with the recipient and sent them a message which is turned into a jumble of letters and numbers by the algorithm. Then the recipient can decrypt this message using the key and thus completing the encrypted messaging process.
+                  <p>
           <br/>
           <br/>
-        <div id="prj">
-        <h2> Projects </h2>
-        <div id="my-projects">
-        <h3> <a href="https://github.com/ryannamgung/mod5-project-frontend"> Clothes R Us </a> </h3>
-        <h5> October 2018 </h5>
-        <p> React-Redux frontend with material-ui for styling, and a RAILS postresql backend. E-commerce site for purchasing large quantities of goods, as well as uploading personal goods that can be added to the JSON data. Cart functionality, item deletion functionality and checkout functionality is present.
-        <p>
-        <br/>
-        <br/>
-        <h3> <a href="https://github.com/utja/module-4-project-frontend"> Platform Jumper </a> </h3>
-        <h5> September 2018 </h5>
-        <p> One of my recent projects involved making a jumping game using React and the Phaser library for the frontend, and RAILS postresql for the backend API storage. The end result was a fully functional game where the user could jump from platform to platform, and avoid obstacles to get to a portal. The portal then teleports the user to another stage and then the user must get to the final teleport location.
-        <p>
-        <br/>
-        <br/>
-        <h3> <a href="https://github.com/ryannamgung/MusicGuroo"> Music Guroo </a> </h3>
-        <h5> September 2018 </h5>
-        <p> A Ruby of Rails based application with SQLite data storage. The purpose of the site is comfortable scheduling of music lessons. Login & signup functionality for both student and teacher are done using Bcrypt tokens and cookie state preservation. Teachers have the ability to create appointments, and students can book appointments from an available schedules list. Both parties can also edit their profiles.
-        <p>
-        <br/>
-        <br/>
-        <h3> <a href="https://github.com/ryannamgung/binary-search-tree"> Binary Search Tree </a> </h3>
-        <h5> February 2018 </h5>
-        <p> A coalition of intermediate data structures such as Probe Hash Maps and Binary Search trees. These data structures are then run against the timing test to show the efficiency of each structure in Big-O time.
-        <p>
-        <br/>
-        <br/>
-        <h3> <a href="https://github.com/ryannamgung/RSA"> RSA Cryptography </a> </h3>
-        <h5> December 2017 </h5>
-        <p> Used Elucids and the RSA prime number algorithm to generate large prime numbers that could be used to form public and private keys. Shared the public keys with the recipient and sent them a message which is turned into a jumble of letters and numbers by the algorithm. Then the recipient can decrypt this message using the key and thus completing the encrypted messaging process.
-        <p>
-        <br/>
-        <br/>
-        <br/>
-        <h3 id="inline-block"> You can find more projects on my Github !
-        </h3>
-        <div id="inline-block">
-          <a href="https://github.com/ryannamgung"><img id="github" src="images/github-logo.jpg"></a>
+          <br/>
         </div>
+      </section>
+      </div>
+    </section>
+
+
+    <!-- experience div -->
+    <section id="experience-block">
+      <div>
+        <div id="exp">
+        <h2 class="headline"><center> Experience </center></h2>
+        <h3> Security Analytics Intern </h3>
+        <h5> July 2017 - August 2017 </h5>
+        <p> My biggest project was running penetration tests to protect against the WannaCry virus that was plaguing hospital computers at the time. This was done via Nessus security software, and also the tracking I.P. ranges of corrupted computers using InfoBlox and pushing remote software updates using Synamic anti-virus software.
+        <p>
+        <br/>
+        <h3>Other Responsibilities</h3>
+        <ul>
+          <li>Aided in the software merging policy between Hackensack Meridian and Bayshore</li>
+          <li>Using Forescan to block unauthorized devices trying to invade the network</li>
+          <li>Encrypt USB data</li>
+          <li>Whiteboarding projects</li>
+        </ul>
         </div>
       </div>
-          <br/>
-          <br/>
-          <div id="exp">
-          <h2 id="my-experience"> Experience </h2>
-          <h3> Security Analytics Intern </h3>
-          <h5> July 2017 - August 2017 </h5>
-          <p> My biggest project was running penetration tests to protect against the WannaCry virus that was plaguing hospital computers at the time. This was done via Nessus security software, and also the tracking I.P. ranges of corrupted computers using InfoBlox and pushing remote software updates using Synamic anti-virus software.
-          <p>
-          <br/>
-          <h3>Other Responsibilities</h3>
-          <ul>
-            <li>Aided in the software merging policy between Hackensack Meridian and Bayshore</li>
-            <li>Using Forescan to block unauthorized devices trying to invade the network</li>
-            <li>Encrypt USB data</li>
-            <li>Whiteboarding projects</li>
-          </ul>
-          </div>
-          <br/>
-          <br/>
-        </section>
-        <br/>
-        <br/>
-        <br/>
-        <section id="contact">
-          <ul>
-            <li> 📞 (732)320-2427 </li>
-            <li> ryannamgung@gmail.com </li>
-            <li> <a href="https://www.linkedin.com/in/ryan-namgung-20966b111/"><img id="linkedin" src="images/linkedin-logo.jpg"></a> </li>
-            <!-- <li><a href="https://www.github.com/ryannamgung"><i class="fa fa-github"></i></a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/ryan-namgung-20966b111/"><i class="fa fa-linkedin"></i></a></li> -->
-          </ul>
-        </section>
+    </section>
 
         <section id="credits">
           <h4>© RYAN H NAMGUNG 2018. ALL RIGHTS RESERVED.</h4>
           <br/>
         </section>
+
     </section>
     <script type='text/javascript' src='index.js'></script>
   </body>
 </html>
-
-
-
-
-<!-- <script type='text/javascript' src='index.js'></script> -->

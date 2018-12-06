@@ -1,48 +1,34 @@
 #navbar{
-  background: linear-gradient(to right, #e6f0ff, #a6a6a6);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  background: linear-gradient(to right, #0D0C0F ,#4c5f6e);
   background-size:cover;
   padding-left: 30px;
+  border-bottom: 1.5px solid #f47a42;
 }
 
 /* background-color: #F0F0D3; */
-#navbar-secondary ul{
-  background: linear-gradient(to right, #f2f2f2, #a6a6a6);
-  padding:1% 0 1% 5%;
+#navbar ul{
+  padding:2% 0 0 5%;
   list-style: none;
 }
 
-#navbar-secondary li{
+#navbar li{
   display:inline;
   font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
 }
-#navbar-secondary li a{
+#navbar li a{
   font-size:18px;
   padding-right:40px;
-  color: black;
-  opacity: 0.6;
+  color: white;
+  opacity: 0.9;
   transition: 0.3s;
   cursor: pointer;
 }
 
-#navbar-secondary li a:hover {
+#navbar li a:hover {
   color:orange;
   opacity:1;
   text-decoration:none;
 }
-
-
-/* #navbar #logo{
-  width:12.5%;
-  height:12.5;
-  -webkit-animation:spin 5s linear infinite;
-  -moz-animation:spin 5s linear infinite;
-  animation:spin 5s linear infinite;
-} */
-
-/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
-} */
-
-
-//the other solution will be in the readME, however note that we cannot deal with the sizing issue as of yet
