@@ -1,4 +1,4 @@
-/* #slideshow {
+#slideshow {
   text-align: center;
   margin: auto;
   position: relative;
@@ -14,4 +14,4 @@
 #slideshow div img{
   max-width:100%;
   height: auto;
-} */
+}

@@ -1,51 +1,24 @@
-#about-me-block{
-  padding-top: 30px;
+/* background-color: #e6f2ff; */
+.info-block{
+  position:absolute;
+  margin-top: 55%;
+  border-top-style: outset;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffffff;
 }
 
-#about-me-one{
-  width: 30%;
-  float: left;
-  height: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  overflow: auto;
-  text-align: center;
+.description{
+  font-size:20px;
+  margin: 1% 5% 1% 5%;
 }
 
-#about-me-one img{
-  width: 85%;
-  border-radius: 5em;
-}
-
-#about-me-two{
-  font-family: 'Rubik', sans-serif, 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
-  width: 70%;
-  float: right;
-  height: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-#about-me-two h2{
-  font-size: 200%;
+.description h2{
+  color: #404040;
+  font-size:40px;
+  text-align:center;
+  margin-bottom: 5%;
   font-weight: bolder;
-}
-
-.clr{
-  clear: both;
-}
-
-#prj{
-  font-family: 'Rubik', sans-serif, 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
-  background-color: #f0f0f0;
-  padding: 2em;
-  color:#55555;
-}
-
-#exp{
-  font-family: 'Rubik', sans-serif, 'Comfortaa', cursive, Lucida Sans Unicode, Lucida Grande, sans-serif;
-  padding: 2em;
-  color:#55555;
+  text-decoration: underline;
 }
 
 #my-projects h3 a{
@@ -55,40 +28,17 @@
 }
 
 #my-projects h3 a:hover{
-  color: #dfd0d0;
+  color: silver;
 }
 
 #my-projects h5{
   color: #404040;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
-.headline{
-  font-size: 300%;
-  font-weight: bolder;
-}
 
-.img-section{
-  width: 30%;
-  float: left;
-}
-
-.img-section img{
-  width: 80%;
-  height: 180px;
-  border-radius: 50%;
-}
-
-#experience-block{
-  margin: 3%;
-}
-
-#experience-block h3{
-  font-weight: bolder;
-}
 
 #contact{
-  float: none;
   background: linear-gradient(to right, #54A4A6, #A9A9A9);
 }
 
@@ -105,9 +55,28 @@
   color: white;
 }
 
+#linkedin{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+#linkedin:hover{
+  border: 1px solid #d0d0d0;
+}
+
 #credits{
-  padding-top: 10px;
-  background-color: #f9f9f9;
+  color: #404040;
   text-align:center;
   font-family: 'Dosis', sans-serif, 'Quicksand', sans-serif;
+}
+
+#abt, #prj, #exp{
+  background-color: #f9f9f9;
+  padding: 1em;
+  border: 1.5px #e6e6e6 groove;
+  border-radius: .5em;
+  color:#55555;
 }

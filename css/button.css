@@ -1,14 +1,14 @@
 .button {
   border-radius: .5em; /* Edges are currvy */
-  border: 2px black groove;
-  color: black;
+  border: 2px white groove;
+  color: grey;
   background-color: transparent;
   font-weight: 800;
   padding: 1em 2em;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  opacity: 0.5;
+  opacity: 0.6;
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
@@ -19,8 +19,7 @@
 
 .button:hover {
   opacity: 1;
-  border: 2px #008080 groove;
-  color: #008080;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
