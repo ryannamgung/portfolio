@@ -1,0 +1,4 @@
+"scripts": {
+  "postinstall": "bower install && grunt build",
+  "start": "nf start"
+}
